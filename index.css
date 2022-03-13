@@ -5,7 +5,19 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #1F2937;
+}
+.logo{
+
+    color: #F9FAF8;
 }
 .item{
     margin: 1rem;
+    color: #E5E7EB;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
 }
