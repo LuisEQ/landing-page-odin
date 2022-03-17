@@ -1,23 +1,46 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #1F2937;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:focus,
+a:hover{
+    text-decoration: underline;
+}
 .logo{
+    font-weight:bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.item{
+    padding: 1.2rem;
+    
+    color: #E5E7EB;
+}
+.focus-element{
+    background-color: #1F2937;
 
     color: #F9FAF8;
 }
-.item{
-    margin: 1rem;
-    color: #E5E7EB;
+.boxes{
 }
+
 footer{
     display: flex;
     justify-content: center;
     align-content: center;
     background-color: #1F2937;
+
+    color: #E5E7EB;
 }
